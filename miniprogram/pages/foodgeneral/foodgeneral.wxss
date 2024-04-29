@@ -1,0 +1,79 @@
+/* pages/shopList/shopList.wxss */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh; /* 设置容器高度为屏幕高度 */
+}
+
+.category-list {
+  flex: 1;
+  border-right: 1rpx solid #ccc; /* 右边框分隔左右两个区域 */
+  background-color: #efebce;
+}
+
+.category-item {
+  padding: 50rpx;
+  font-size: 35rpx;
+  text-align: center;
+  border-bottom: 1rpx solid #ccc; /* 底边框分隔不同分类 */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 800;
+  color: #bfa48c;
+}
+
+.category-item.active {
+  background-color: #ba9a8b; /* 激活状态的背景色 */
+  color: #666;
+}
+
+.divider {
+  width: 100%; /* 设置分割线宽度 */
+  height: 5px; /* 设置分割线高度 */
+  background-color: #666; /* 设置分割线颜色 */
+  margin: 0px 0; /* 设置分割线上下间距 */
+}
+
+
+.shop-info {
+  flex: 2;
+  padding: 20rpx;
+  background-color: #f2e1b5;
+  margin-top: 50px;
+}
+
+.shop-name {
+  font-size: 45rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+.shop-address {
+  font-size: 10rpx;
+  color: #666;
+  margin-bottom: 20rpx;
+}
+
+/* shop-item 样式 */
+.shop-item {
+  margin-bottom: 20px; /* 在店铺文本框之间添加间距 */
+  padding: 20px; /* 为文本框添加内边距 */
+  border-radius: 50px; /* 为文本框添加圆角 */
+}
+
+/* shop-content 样式 */
+.shop-content {
+  flex-direction: column; /* 垂直排列元素 */
+  gap: 100px; /* 在店名和地址之间添加间距 */
+}
+
+/* shop-name 样式 */
+.shop-name {
+  font-weight: bold; /* 店名加粗 */
+}
+
+/* shop-address 样式 */
+.shop-address {
+  font-size: 17px; /* 店址字体大小 */
+}
+

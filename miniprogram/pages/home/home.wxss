@@ -1,0 +1,14 @@
+/* index.wxss */
+
+.container {
+  width: 100%;
+  height: 100vh; /* 让容器充满整个屏幕 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-image {
+  width: 100%;
+  height: 120%;
+}

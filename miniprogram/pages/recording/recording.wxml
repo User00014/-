@@ -1,0 +1,107 @@
+<!-- pages/diet/diet.wxml -->
+
+<view class="header">
+  <text class="title">浅浅记录一下你的饮食吧 ~ </text>
+</view>
+<view class="divider">——————————————————————————————————————————————————————————————</view>
+
+<view class="meal">
+  <text class="meal-title">早饭</text>
+  <view class="food-item">
+    <text class="label">优质碳水</text>
+    <input class="input" placeholder="优质碳水你吃了啥？" bindinput="inputCarbs"></input>
+    <view class="icon-wrapper">
+      <image class="icon" src="/images/哭脸.png" bindtap="fillText"></image>
+      <text class="no-eat-text" bindtap="fillText" data-fooditem="carbs">没吃</text>
+      <checkbox></checkbox>
+    </view>
+  </view>
+  <view class="food-item">
+    <text class="label">优质蛋白</text>
+    <input class="input" placeholder="优质蛋白你吃了啥？" bindinput="inputProtein"></input>
+    <view class="icon-wrapper">
+      <image class="icon" src="/images/哭脸.png" bindtap="fillText"></image>
+      <text class="no-eat-text" bindtap="fillText" data-fooditem="carbs">没吃</text>
+      <checkbox></checkbox>
+    </view>
+  </view>
+  <view class="food-item">
+    <text class="label">水果</text>
+    <input class="input" placeholder="水果你吃了吗？" bindinput="inputFruit"></input>
+    <view class="icon-wrapper">
+      <image class="icon" src="/images/哭脸.png" bindtap="fillText"></image>
+      <text class="no-eat-text" bind:tap="fillText">没吃</text>
+      <checkbox></checkbox>
+    </view>
+  </view>
+</view>
+
+<view class="divider">————————————————————————————————————————————————————</view>
+
+<view class="meal">
+  <text class="meal-title">午饭</text>
+  <view class="food-item">
+    <text class="label">碳水</text>
+    <input class="input" placeholder="碳水你吃了吗" bindinput="inputCarbs"></input>
+    <view class="icon-wrapper">
+      <image class="icon" src="/images/哭脸.png" bindtap="fillText"></image>
+      <text class="no-eat-text" bind:tap="fillText">没吃</text>
+      <checkbox></checkbox>
+    </view>
+  </view>
+  <view class="food-item">
+    <text class="label">优质蛋白</text>
+    <input class="input" placeholder="高蛋白你吃了啥" bindinput="inputProtein"></input>
+    <view class="icon-wrapper">
+      <image class="icon" src="/images/哭脸.png" bindtap="fillText"></image>
+      <text class="no-eat-text" bind:tap="fillText">没吃</text>
+      <checkbox></checkbox>
+    </view>
+  </view>
+  <view class="food-item">
+    <text class="label">膳食纤维</text>
+    <input class="input" placeholder="膳食纤维你吃了吗" bindinput="inputFruit"></input>
+    <view class="icon-wrapper">
+      <image class="icon" src="/images/哭脸.png" bindtap="fillText"></image>
+      <text class="no-eat-text" bind:tap="fillText">没吃</text>
+      <checkbox></checkbox>
+    </view>
+  </view>
+</view>
+
+<view class="divider">———————————————————————————————————————————————————</view>
+
+<view class="meal">
+  <text class="meal-title">晚饭</text>
+  <view class="food-item">
+    <text class="label">优质碳水</text>
+    <input class="input" placeholder="碳水你吃了吗" bindinput="inputCarbs"></input>
+    <view class="icon-wrapper">
+      <image class="icon" src="/images/哭脸.png" bindtap="fillText"></image>
+      <text class="no-eat-text" bind:tap="fillText">没吃</text>
+      <checkbox></checkbox>
+    </view>
+  </view>
+  <view class="food-item">
+    <text class="label">优质蛋白</text>
+    <input class="input" placeholder="高蛋白你吃了啥" bindinput="inputProtein"></input>
+    <view class="icon-wrapper">
+      <image class="icon" src="/images/哭脸.png" bindtap="fillText"></image>
+      <text class="no-eat-text" bind:tap="fillText">没吃</text>
+      <checkbox></checkbox>
+    </view>
+  </view>
+  <view class="food-item">
+    <text class="label">膳食纤维</text>
+    <input class="input" placeholder="膳食纤维你吃了吗" bindinput="inputFruit"></input>
+    <view class="icon-wrapper">
+      <image class="icon" src="/images/哭脸.png" bindtap="fillText"></image>
+      <text class="no-eat-text" bind:tap="fillText">没吃</text>
+      <checkbox></checkbox>
+    </view>
+  </view>
+</view>
+
+
+<!-- 午饭和晚饭部分省略，与早饭部分类似 -->
+

@@ -1,0 +1,19 @@
+<!-- pages/shopList/shopList.wxml -->
+
+<view class="container">
+  <!-- 左侧滚动列表 -->
+  <scroll-view class="category-list" scroll-y="{{true}}" scroll-with-animation="{{true}}" bindscrolltoupper="scrollToUpper" style="height: 100%;">
+    <view wx:for="{{categories}}" wx:key="index" bindtap="selectCategory" data-index="{{index}}" class="category-item {{currentIndex === index ? 'active' : ''}}">
+      {{item}}
+    </view>
+  </scroll-view>
+
+  <!-- 右侧店名和地址显示区域 -->
+  <scroll-view class="shop-info" scroll-y="true" style="height: 700px;">
+  <view wx:for="{{shopsByCategory[categories[currentIndex]]}}" wx:key="shopid" class="shop-item" bindtap="goToFoodDetail" data-shopid="{{item.shopid}}" style="background-color: {{item.bgColor}};">
+    <view class="shop-name">店名：{{item.shopname}}</view>
+    <view class="shop-address">地址：{{item.shopaddress}}</view>
+    <view class="divider"></view> <!-- 分割线 -->
+  </view>
+</scroll-view>
+</view>

@@ -1,0 +1,3 @@
+<view class="container">
+<image src="https://636c-cloud1-5g7gqt2sc10d254f-1325700503.tcb.qcloud.la/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240426195959.png?sign=af79a13531b8eed37e3ba13cd47936bd&t=1714132836" mode="scaleToFill" class="full-width" bind:tap="transit1"></image>
+</view>

@@ -1,0 +1,29 @@
+/* pages/random/random.wxss */
+.top{
+  top: 10px;
+  position: absolute;
+  left: 0px;
+}
+
+.mid{
+  top: 200px;
+  position: absolute;
+  left: 80px;
+}
+
+.bottom{
+  top: 500px;
+  position: absolute;
+  left: 0px;
+}
+
+.txt{
+  color:black;
+  font-size: 30px;
+}
+
+.main{
+  position: absolute;
+  top: 350px;
+  left: 120px;
+}

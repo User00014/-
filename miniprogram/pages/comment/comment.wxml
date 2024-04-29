@@ -1,0 +1,11 @@
+<view class="container">
+<image src="https://636c-cloud1-5g7gqt2sc10d254f-1325700503.tcb.qcloud.la/QQ%E5%9B%BE%E7%89%8720240426234639.png?sign=20ad7a944618b61647dc954c9ce70a77&t=1714146438" style="width:350px" mode="widthFix"></image></view>
+
+<View class="dish-info">
+    <!-- 使用 wx:for 循环遍历菜品信息数组 -->
+    <View class="dish-item-container">
+  <View wx:for="{{ com }}" wx:key="index">
+    <Text class="name">评论：{{ item.comment }}</Text>
+  </View>
+</View>
+  </View>

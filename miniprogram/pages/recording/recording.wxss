@@ -1,0 +1,59 @@
+/* pages/recording/recording.wxss */
+/* pages/diet/diet.wxss */
+
+.header {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #CCCCCC;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.meal {
+  display: flex; /* 使用 Flexbox 布局 */
+  flex-direction: column; /* 子元素垂直排列 */
+  align-items: center;
+}
+
+.meal-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.food-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  width: 90px;
+}
+
+.input {
+  flex: 1;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.red-text {
+  color: red;
+}
+
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}

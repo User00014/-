@@ -1,0 +1,48 @@
+{
+  "pages": [
+ "pages/home/home",
+ "pages/healthydiet/healthydiet",
+ "pages/foodtotal/foodtotal",
+ "pages/recording/recording",
+ "pages/foodgeneral/foodgeneral",
+ "pages/fooddetail/fooddetail",
+ "pages/comment/comment",
+ "pages/random/random"
+  ],
+
+  "window": {
+    "backgroundColor": "#E8E8E8",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#f0deae",
+    "navigationBarTitleText": "小花梨日食记",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#A2A9B0",
+    "selectedColor": "#07C160",
+    "backgroundColor": "#f0deae",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/059_主页.png"
+
+      },
+
+      {
+        "pagePath": "pages/foodtotal/foodtotal",
+        "text": "菜品总览",
+        "iconPath": "images/0火锅.png"
+      },
+      {
+        "pagePath": "pages/healthydiet/healthydiet",
+        "text": "健康饮食",
+        "iconPath": "images/be068.png"
+      }
+    ]
+  }
+}

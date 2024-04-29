@@ -1,0 +1,6 @@
+<!-- index.wxml -->
+
+<view class="container" bindtap="navigateToPage">
+  <!-- 图片位置 -->
+  <image class="cover-image" src="https://636c-cloud1-5g7gqt2sc10d254f-1325700503.tcb.qcloud.la/%E9%A6%96%E9%A1%B5.png?sign=cc63e90eaf8b86a19f9f364079c6e14d&t=1713962434" mode="scaleToFill"></image>
+</view>

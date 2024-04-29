@@ -1,0 +1,31 @@
+<view class="container">
+  <!-- 显示店家名称和店家地址 -->
+  <view class="shop-info">
+    <text>店家名称：{{ shopName }}</text>
+    <text>店家地址：{{ shopAddress }}</text>
+  </view>
+
+  <!-- 词云图的位置 -->
+  <view class="word-cloud">
+    <image src="{{cloudPic}}"></image>
+  </view>
+
+<view class="comment">
+  <image src="https://636c-cloud1-5g7gqt2sc10d254f-1325700503.tcb.qcloud.la/QQ%E5%9B%BE%E7%89%8720240426231428.png?sign=396fefcf21b8697437f0c493809b1d1e&t=1714144483" style="width:100px" mode="widthFix" bind:tap="change"></image>
+</view>
+
+<view class="custom-image">
+  <image src="https://636c-cloud1-5g7gqt2sc10d254f-1325700503.tcb.qcloud.la/QQ%E5%9B%BE%E7%89%8720240426231009.png?sign=d02caf2aa4e72093f30cba27c777a9ce&t=1714144229" style="width:330px" mode="widthFix"></image>
+</view>
+
+  <!-- 显示菜品信息 -->
+  <View class="dish-info">
+    <!-- 使用 wx:for 循环遍历菜品信息数组 -->
+      <View wx:for="{{ dishes }}" wx:key="index">
+      <view class="txt">
+        <Text class="name">名称：{{ item.dishname }}　　　　　</Text>
+        <Text class="price">价格：{{ item.price }} ¥</Text>
+      </view>
+      </View>
+  </View>
+</view>

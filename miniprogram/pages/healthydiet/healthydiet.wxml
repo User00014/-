@@ -1,0 +1,8 @@
+<!-- index.wxml -->
+
+<view class="container">
+  <image src="https://636c-cloud1-5g7gqt2sc10d254f-1325700503.tcb.qcloud.la/%E5%81%A5%E5%BA%B7%E9%A5%AE%E9%A3%9F-%E6%96%B0%E7%95%8C%E9%9D%A2.png?sign=3f60a09b60968076258832ed649a1eb1&t=1714051814" mode="aspectFill" class="full-width"></image>
+</view>
+
+  <!-- 开始记录按钮 -->
+  <button class="record-button" bindtap="startRecording">开始记录</button>

@@ -1,0 +1,74 @@
+/* 在对应的wxss文件中添加样式 */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* 设置容器为纵向排列 */
+}
+
+.shop-info {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 30px; /* 店家信息和下方内容的间距 */
+}
+
+.custom-image {
+  height: 1rpx;
+  width: auto;
+  display: flex;
+  position: absolute;
+  top: 350px;
+  left: 40px;
+}
+
+.comment {
+  width: auto;
+  height: 20spx;
+  position: absolute;
+  left: 550rpx;
+}
+
+
+.shop-info text {
+  display: block;
+  /* 让文本以块级元素显示，实现换行效果 */
+}
+
+.word-cloud{
+  margin-top: 0px;
+}
+
+.dish-info {
+  background-color: #CAB4A2;
+  position: absolute;
+  padding: 30px;
+  width: 350px;
+  height: 600px;
+  margin-top: 450px;
+  line-height: 30px;
+}
+
+
+.dish-info text {
+  /* 菜品信息文本样式 */
+  font-weight: bold;
+}
+
+/* 在对应的wxss文件中添加样式 */
+
+.dish-item-container {
+  /* 使用 flexbox 布局，并设置两个子元素之间的间距平均分配 */
+}
+
+.name {
+  text-align: left;
+  /* 设置文本左对齐 */
+}
+
+.price {
+  text-indent: 10px;
+  /* 设置文本右对齐 */
+}
+
+
+
