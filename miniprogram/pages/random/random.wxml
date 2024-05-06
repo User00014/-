@@ -4,6 +4,7 @@
 <image src="https://636c-cloud1-5g7gqt2sc10d254f-1325700503.tcb.qcloud.la/%E8%AF%8D%E4%BA%91%E5%9B%BE/%E5%BA%95%E9%83%A8.png?sign=3a8809de83c99a0b7cec74ade1f73aba&t=1714312876" mode="widthFix" mode="widthFix" style="width:300px" class="bottom"></image>
 
 <view class="main">
-  <text class="txt">特色牛肉面/粉</text>
-  <button style="border: 1ch;" bind:tap="change">点击此处可以跳转到对应商店</button>
+  <text class="txt"> {{randomDish.dishname}} </text>
+  <button bind:tap="change" class="butt">点击此处可以跳转到对应商店</button>
+  <text> (再次抽取需要退回到首页重新进入)</text>
 </view>
