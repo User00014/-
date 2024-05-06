@@ -18,12 +18,20 @@
 }
 
 .txt{
-  color:black;
+  color:linear-gradient(to right, #ff7e5f, #feb47b, #fff29a);
   font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.butt{
+    border: 1px solid black; /* 设置边框为1像素的实线黑色 */
+    border-radius: 10px; /* 设置圆角半径为10像素 */
 }
 
 .main{
   position: absolute;
   top: 350px;
-  left: 120px;
+  left: 80px;
+  text-align: center;
 }
